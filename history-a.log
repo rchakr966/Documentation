@@ -1,0 +1,630 @@
+    1  sudo -s
+    2  usermod -aG sudo rninjar
+    3  su
+    4  cd ..
+    5  sudo -s
+    6  exit
+    7  sudo rninjar
+    8  sudo -s
+    9  exit
+   10  sudo apt-get install gcc make perl
+   11  apt-get update
+   12  sudo -s
+   13  sudo apt-get install gcc make perl
+   14  apt-get update --fix-missing
+   15  su
+   16  sudo -s
+   17  cp /usr/local/share/ca-certificates/ComcastWebProxyAuthority.crt /etc/ssl/certs/ca-certificates.crt
+   18  sudo dpkg --add-architecture i386 &&     sudo apt-get update &&           sudo apt-get install -y                 ant                 autoconf                 build-essential                 curl                 cpio                 git                 gcc-multilib                 gcc-4.8-multilib                 g++-multilib                 g++-4.8-multilib                 libtool                 libtool-bin                 lib32ncurses5                 lib32z1                 libc6-dev                 libgmp-dev                 libmpfr-dev                 libmpc-dev                 libglib2.0                 libglib2.0-0:i386                 libsm6:i386                 m4                 pkg-config                 software-properties-common                 sudo                 texinfo     tzdata                 unzip                 wget                 vim-common                 zlibc                 zip                 vim
+   19  sudo add-apt-repository ppa:webupd8team/java -y
+   20  sudo apt-get update
+   21  echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
+   22  sudo apt-get install -y oracle-java8-installer oracle-java8-set-default
+   23  sudo apt-get install software-properties-common
+   24  sudo add-apt-repository ppa:webupd8team/java
+   25  exit
+   26  su rchakr966
+   27  cd /mnt/hgfs
+   28  pwd
+   29  exit
+   30  sudo apt-get -y install python-pip python-dev libffi-dev libssl-dev
+   31  exit
+   32  mount -t vmhgfs .host:/ /mnt/hgfs
+   33  /usr/bin/vmhgfs-fuse -h
+   34  sudo vmware-config-tools.pl -d --clobber-kernel-modules=vmhgfs
+   35  sudo mkdir /mnt/hgfs
+   36  sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
+   37  exit
+   38  exit
+   39  ls
+   40  cd /mnt
+   41  ls
+   42  cd /hgfs
+   43  /sbin/mount.vmhgfs -h
+   44  cd ..
+   45  mount -t vmhgfs .host:/ /mnt/hgfs
+   46  sudo -s
+   47  ls
+   48  cd /mnt/hgfs
+   49  ;s
+   50  ls
+   51  cd SharedLinux/
+   52  ls
+   53  exit
+   54  mount /mnt/hgfs
+   55  pwd
+   56  mount -t vmhgfs .host:/ /mnt/hgfs
+   57  sudo -s
+   58  mount -t vmhgfs .host:/ /mnt/hgfs
+   59  /usr/bin/vmhgfs-fuse .host:/ /home/user1/shares -o subtype=vmhgfs-fuse,allow_other
+   60  pwd
+   61  ls
+   62  vmware-hgfsclient
+   63  vmware-hgfsclient WinLinShare
+   64  ln -s /mnt/hgfs/SharedLinux ~/Desktop/SharedLinux
+   65  sudo vmware-config-tools.pl
+   66  sudo vmhgfs-fuse .host:/SharedLinux /mnt/hgfs/ -o allow_other -o uid=1000
+   67  ln -s /mnt/hgfs/SharedLinux ~/Desktop/SharedLinux
+   68  sudo apt-get install open-vm-tools open-vm-tools-desktop 
+   69  sudo apt-get install build-essential module-assistant   linux-headers-virtual linux-image-virtual && dpkg-reconfigure open-vm-tools
+   70  /etc/fstab
+   71  cd /etc/fstab
+   72  find
+   73  find /etc/fstab
+   74  whereis /etc/fstab
+   75  ls
+   76  cd ..
+   77  ls
+   78  cd ..
+   79  ;s
+   80  ls
+   81  cd etc
+   82  ls
+   83  f
+   84  cd fstab
+   85  sudo vmhgfs-fuse .host:/SharedLinux /mnt/hgfs/ -o allow_other -o uid=1000
+   86  cut -d: -f1 /etc/passwd
+   87  sudo -s
+   88  adduser rninjar sudo
+   89  ansible --version
+   90  python --version
+   91  python3 --version
+   92  history
+   93  usermod -l
+   94  usermod -l rchakr966 rninjar
+   95  pstree
+   96  ps -aux | less
+   97  ps -u rninjar
+   98  su rchakr
+   99  su rchakr966
+  100  sudo chfn username
+  101  sudo chfn rninjar
+  102  adduser rninjar sudo
+  103  sudo -s
+  104  su rninjar
+  105  lprm -
+  106  lpstat -o
+  107  cancel -a 
+  108  ps aux | grep printer
+  109  kill gsd-printer
+  110  kill 1641
+  111  kill 2369
+  112  ps aux | grep printer
+  113  kill 2372
+  114  ps aux | grep printer
+  115  kill printer
+  116  exit
+  117  mkdir /mnt/hgfs/SharedLinux
+  118  ls
+  119  sudo vmhgfs-fuse .host:/SharedLinux /mnt/hgfs/SharedLinux -o allow_other -o uid=1000
+  120  cd /mnt/hgfs/SharedLinux/
+  121  ls
+  122  gnome-open
+  123  apt install libgnome2-bin
+  124  gnome-open
+  125  gnome-open /mnt/hgfs/SharedLinux/
+  126  xit
+  127  exit
+  128  sudo vmhgfs-fuse .host:/SharedLinux /mnt/hgfs/SharedLinux -o allow_other -o uid=1000
+  129  mkdir SharedLinux
+  130  sudo vmhgfs-fuse .host:/SharedLinux /mnt/hgfs/SharedLinux -o allow_other -o uid=1000
+  131  mkdir /mnt/hgfs/SharedLinux
+  132  sudo -s
+  133  exit
+  134  ls 
+  135  move
+  136  push
+  137  pushd
+  138  chromium
+  139  sudo snap install chromium
+  140  gnome-open chromium
+  141  java
+  142  javac
+  143  javac -version
+  144  java --version
+  145  javac --version
+  146  sudo add-apt-repository ppa:webupd8team/java -y
+  147  sudo apt-get update
+  148  echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
+  149  sudo apt-get install -y oracle-java8-installer oracle-java8-set-default
+  150  java --version
+  151  javac --version
+  152  sudo apt install openjdk-8-jdk-headless
+  153  sudo mkdir -p /usr/lib/jvm
+  154  cd /usr/lib/jvm
+  155  curl -k "https://tx-nexus.icontrol.com:8443/nexus/content/repositories/toolchains//java/oraclejdk/7u80-linux/oraclejdk-7u80-linux-x64.tar.gz" | sudo tar xz
+  156  sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.7.0_80/bin/java" 100
+  157  sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.7.0_80/bin/javac" 100
+  158  sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.7.0_80/bin/javaws" 100
+  159  javac -version
+  160  java -version
+  161  sh '/home/rninjar/Desktop/run_SharedFolder.sh' 
+  162  cd /mnt/hgfs
+  163  ls
+  164  cd SharedLinux/
+  165  ls
+  166  cd /Documents/Projects
+  167  cd Documents/Projects/
+  168  git clone https://rchakr966:6cea357b37da55fe84a5316744596a64c1e06ccf@github.comcast.com/rchakr966/rda-manager.git
+  169  ls
+  170  cd rda-manager/
+  171  ls
+  172  cd ..
+  173  git clone https://rchakr966:6cea357b37da55fe84a5316744596a64c1e06ccf@github.comcast.com/rchakr966/rda-manager.git
+  174  whoami
+  175  who
+  176  ls
+  177  ansible-vault decrypt --vault-password-file ~/.vault_pass.txt config/secrets.json
+  178  cd rda-manager/
+  179  ansible-vault decrypt --vault-password-file ~/.vault_pass.txt config/secrets.json
+  180  cd ..
+  181  conda
+  182  cd ~
+  183  conda
+  184  anaconda
+  185  apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  186  sudo -s
+  187  apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  188  bash ./SharedLinux.sh
+  189  cd Desktop/
+  190  ls
+  191  bash ./SharedLinux.sh
+  192  which python
+  193  echo $PATH
+  194  sudo -s
+  195  cd /usr/bin
+  196  mkdir anaconda3
+  197  ls
+  198  cd anaconda3/
+  199  cd ..
+  200  rmdir anaconda3/
+  201  ls
+  202  cd /usr/bin
+  203  ls
+  204  sh ~/Desktop/Anaconda3-2019.10-Linux-x86_64.sh
+  205  sh ~/Desktop/Anaconda3-2019.10-Linux-x86_64.sh -u
+  206  source ~/.bashrc
+  207  conda config --set auto_activate_base False or True
+  208  conda config --set auto_activate_base False
+  209  conda init
+  210  conda --version
+  211  exit
+  212  sh ~/Desktop/Anaconda3-2019.10-Linux-x86_64.sh
+  213  sudo -s
+  214  conda
+  215  net start vmnetbridge
+  216  sudo snap install --classic code
+  217  sudo -s
+  218  fish
+  219  fish
+  220  sudo snap install --classic code
+  221  bash /home/rninjar/Desktop/SharedLinux.sh
+  222  sudo apt install /mnt/hgfs/SharedLinux/apps/code_1.43.0-1583783132_amd64.deb
+  223  sudo apt-get install apt-transport-https
+  224  sudo apt-get update
+  225  sudo apt-get install code
+  226  xdg-mime default code.desktop text/plain
+  227  sudo update-alternatives --set editor /usr/bin/code
+  228  apt-get install fish
+  229  fish
+  230  mkdir -p ~/.config/fish
+  231  vim ~/.config/fish/config.fish
+  232  fish
+  233  python
+  234  conda
+  235  pip install -r requirements.txt
+  236  pip --trusted-host pypi.python.org install -r requirements.txt
+  237  pip install certifi
+  238  pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org requirememts.txt
+  239  python3
+  240  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org -r .\requirements.txt
+  241  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.pytho
+  242  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org -r numpy
+  243  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org numpy
+  244  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org -r requirements.txt
+  245  cat release-upgrades
+  246  vim release-upgrades
+  247  cat release-upgrades
+  248  sudo do-release-upgrade
+  249  sudo do-release-upgrade
+  250  ls
+  251  cd /etc/update-manager
+  252  cd release-upgrades.d/
+  253  ls
+  254  cat
+  255  cd ..
+  256  cat release-upgrades
+  257  vim
+  258  vim release-upgrades
+  259  cat release-upgrades
+  260  sudo -s
+  261  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org -r requirements.txt
+  262  python --version
+  263  python2
+  264  python3
+  265  apt-get upgrade
+  266  sudo -s
+  267  cd Desktop/
+  268  basj SharedLinux.sh 
+  269  bash SharedLinux.sh 
+  270  python default
+  271  python -default
+  272  python3
+  273  exit
+  274  sudo apt-get clean
+  275  du -sh /var/cache/apt/archives
+  276  sudo -s
+  277  x-special/nautilus-clipboard
+  278  cut
+  279  sudo rm -rf ~/.cache/thumbnails/*
+  280  du -sh ~/.cache/thumbnails
+  281  sudo dpkg --list 'linux-image*'
+  282  sudo du -sh /var/cache/apt
+  283  sudo apt-get clean
+  284  sudo du -sh /var/cache/apt
+  285  cat /etc/*release*
+  286  sudo apt-get remove docker docker-engine docker.io containerd runc
+  287  sudo -s
+  288  sudo du -sh /var/cache/apt
+  289  sudo apt-get clean
+  290  sudo du -sh /var/cache/apt
+  291  sudo apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
+  292  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org -r requirements.txt
+  293  sudo apt-get install unixodbc-dev
+  294  pip install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org -r requirements.txt
+  295  git remote show origin
+  296  git add .
+  297  git status
+  298  git commit -m "updated requirements.txt file" 
+  299  git config --global user.email "rajesh_chakravarthy@comcast.com"
+  300  git config --global user.name "rajesh_chakravarthy"
+  301  git commit -m "updated requirements.txt file" 
+  302  git status
+  303  git push origin master
+  304  sudo apt-get clean
+  305  sudo -s
+  306  cd ..
+  307  where is python
+  308  whereis python
+  309  mkdir FirstFlask
+  310  ls
+  311  cd FirstFlask
+  312  mk FirstFlask.py
+  313  sudo apt-get install python3-venv    # If needed
+  314  python3 -m venv env
+  315  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  316  /home/rninjar/Documents/Projects/FirstFlask/env/bin/python3 -m pip install -U pylint
+  317  pip install wheel
+  318  /home/rninjar/Documents/Projects/FirstFlask/env/bin/python3 -m pip install -U pylint
+  319  pip3 install wheel
+  320  pip  install --upgrade pip wheel setuptools
+  321  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  322  pip3 install flask
+  323  python3 -m flask run
+  324  python -m flask run
+  325  env.FLASK_APP="webapp"
+  326  $env:FLASK_APP = "webapp"
+  327  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  328  $env:FLASK_APP = "webapp"
+  329  env:FLASK_APP = "webapp"
+  330  set FLASK_APP=app.py
+  331  python -m flask run 
+  332  set FLASK_APP=webapp
+  333  env:FLASK_APP = "webapp"
+  334  export FLASK_APP=app.py
+  335  python -m flask run 
+  336  python -m flask run
+  337  export FLASK_APP=app.py
+  338  python -m flask run
+  339  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  340  ifconfif
+  341  ifconfig
+  342  sudo apt install net-tools
+  343  ifconfig
+  344  sudo ufw status
+  345  netstat -lat
+  346  netstat -tupln | grep ':5000'
+  347  iptables -I INPUT -p tcp --dport 5000 -j ACCEPT
+  348  sudo -s
+  349  netstat -tupln | grep ':5000'
+  350  bash "~./SharedLinux.sh"
+  351  ls
+  352  cd Desktop/
+  353  ls
+  354  bash SharedLinux.sh 
+  355  cd unzip /path/to/ngrok.zip
+  356  cd /mnt
+  357  cd hgfs
+  358  cd SharedLinux/
+  359  ls
+  360  cd apps
+  361  unzip ngrok.zip
+  362  ls
+  363  unzip ngrok-stable-linux-amd64.zip 
+  364  ls
+  365  ./ngrok -h
+  366  ./ngrok http https://localhost
+  367  /home/rninjar/Documents/Projects/FirstFlask/env/bin/python /home/rninjar/Documents/Projects/FirstFlask/app/app.py
+  368  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  369  /home/rninjar/Documents/Projects/FirstFlask/env/bin/python /home/rninjar/Documents/Projects/FirstFlask/app/app.py
+  370  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  371  python -m flask run[B
+  372  python -m flask run
+  373  sudo apt install nginx
+  374  sudo ufw app list
+  375  sudo ufw allow 'Nginx HTTP'
+  376  sudo ufw status
+  377  sudo ufw allow 'Nginx HTTP'
+  378  sudo ufw status
+  379  sudo ufw enable
+  380  sudo ufw status
+  381  systemctl status nginx
+  382  ifconfig
+  383  nginx -h
+  384  cd /usr/local/etc/nginx/
+  385  whereis nginx
+  386  cd etc
+  387  cd /etc
+  388  cd /nginx
+  389  ls
+  390  nginx
+  391  systemctl status nginx
+  392  sudo ufw status
+  393  systemctl status nginx
+  394  nginx
+  395  cd ~
+  396  nginx
+  397  systemctl status nginx
+  398  cd/bin
+  399  cd /bin
+  400  ls
+  401  cd ..
+  402  whereis nginx
+  403  cd /usr/sbin/nginx
+  404  cd ..
+  405  ls
+  406  cd /usr/sbin/nginx
+  407  cd /usr/sbin
+  408  ls
+  409  cd nginx
+  410  cd ~
+  411  whereis nginx
+  412  cd /usr
+  413  cd /lib
+  414  ls
+  415  cd nginx
+  416  ls
+  417  cd ~
+  418  whereis nginx
+  419  cd /usr/share/nginx
+  420  ls
+  421  cd modules
+  422  ls
+  423  cd ..
+  424  cd modules-ava
+  425  cd modules-available/
+  426  ls
+  427  cd ~
+  428  sudo vim /etc/nginx/nginx.conf
+  429  locate nginx.conf
+  430  sudo apt install mlocate
+  431  locate nginx.conf
+  432  locate vim
+  433  locate vscode
+  434  locate hgfs
+  435  cd /mnt/hgfs/SharedLinux/
+  436  ls
+  437  cd apps
+  438  ls
+  439  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  440  /home/rninjar/Documents/Projects/FirstFlask/env/bin/python /home/rninjar/Documents/Projects/FirstFlask/app/app.py
+  441  ifconfig
+  442  /usr/bin/python3 /home/rninjar/Documents/Projects/rda-manager/src/wsgi.py
+  443  /usr/bin/python3 /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  444  /usr/bin/python3.7 /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  445  source /home/rninjar/Documents/Projects/FirstFlask/env/bin/activate
+  446  Docker --version
+  447  docker
+  448  docker --version
+  449  docker --stats
+  450  docker stats
+  451  sudo -s
+  452  cd ~
+  453  cd ..
+  454  docker run hello-world
+  455  docker run -it ubuntu bash
+  456  sudo -s
+  457  logout
+  458  exit
+  459  docker ls
+  460  docker ps
+  461  sudo groupadd docker
+  462  sudo usermod -aG docker rninjar
+  463  sudo -s rninjar
+  464  su -s rninjar
+  465  sudo -s
+  466  /usr/bin/python3.7 /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  467  git clone https://github.comcast.com/RDK-RDA/rda-manager.git
+  468  git clone https://rchakr966:6b9d788ddd8de71dbefee362c28a65b6a51920d7@github.comcast.com/RDK-RDA/rda-manager.git
+  469  git branch
+  470  cd rda-manager/
+  471  git branch
+  472  git branch -a
+  473  git branch sso-migration
+  474  git branch
+  475  git checkout sso-migration
+  476  cd Documents/
+  477  ls
+  478  cd Projects/
+  479  ls
+  480  cd rda-manager/
+  481  git status
+  482  git branch sso-migration
+  483  cd ~
+  484  ls
+  485  cd /Documents
+  486  cd Documents
+  487  ls
+  488  cd Projects/
+  489  rmdir rda-manager/
+  490  rmdir -f rda-manager/
+  491  git remote show origin
+  492  cd rda-manager/
+  493  ls
+  494  git remote show origin
+  495  cd Documents/
+  496  d Projects/
+  497  cd Projects/
+  498  cd rda-manager/
+  499  ls
+  500  git status
+  501  git remote show origin
+  502  git branch -a
+  503  git checkout branch sso-migration
+  504  git checkout sso-migration
+  505  ls
+  506  git branch /origin/sso-migration
+  507  git branch /remote/origin/sso-migration
+  508  git branch remote/origin/sso-migration
+  509  git status
+  510  git branch remotes/origin/sso-migration
+  511  git status
+  512  git branch
+  513  git checkout -b sso-migration
+  514  git checkout remotes/origin/sso-migration
+  515  git branch
+  516  cd Documents/
+  517  cd Projects/
+  518  git clone https://github.comcast.com/RDK-RDA/rda-manager.git
+  519  https://rchakr966:6b9d788ddd8de71dbefee362c28a65b6a51920d7@github.comcast.com/RDK-RDA/rda-manager.git
+  520  ls
+  521  /usr/bin/python3 /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  522  cd Documents/Projects/
+  523  ls -l ~/.ssh
+  524  ssh-keygen
+  525  ls
+  526  ls -l ~/.ssh
+  527  cd ~/.ssh
+  528  ls
+  529  rm -f id_rsa.pub.pub
+  530  ls
+  531  cat id_rsa.pub
+  532  cd ~
+  533  cd Documents/
+  534  cd Projects/
+  535  cd ~home
+  536  cd ..
+  537  ls
+  538  cd .git
+  539  cd ..
+  540  ls
+  541  cd home
+  542  ls
+  543  cd ~
+  544  cd .git
+  545  whereis .git
+  546  git config --global user.email “rajesh_chakravarthy@comcast.com”
+  547  git config --global user.name "Chakravarthy Rajesh"
+  548  cd .git
+  549  cd Documents/Projects/
+  550  git clone git@github.comcast.com:RDK-RDA/rda-manager.git
+  551  ls
+  552  cd rda-manager/
+  553  git branch sso-migration
+  554  git branch
+  555  git branch -d sso-migration
+  556  git checkout sso-migration
+  557  git branch
+  558  conda
+  559  cond env list
+  560  conda env list
+  561  sudo conda env create -f environment-dev.yml
+  562  sudo -s
+  563  conda env create environment-dev.yml
+  564  whoami
+  565  id
+  566  sudo -s
+  567  conda env create environment-dev.yml
+  568  conda env create -f environment-dev.yml
+  569  conda activate rda-py36dev
+  570  ansible -version
+  571  exit
+  572  source /home/rninjar/anaconda3/bin/activate
+  573  conda activate rda-py36dev
+  574  /home/rninjar/anaconda3/envs/rda-py36dev/bin/python /home/rninjar/Documents/Projects/rda-manager/src/intake.py
+  575  /home/rninjar/anaconda3/envs/rda-py36dev/bin/python /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  576  /home/rninjar/anaconda3/envs/rda-py36dev/bin/python /home/rninjar/Documents/Projects/rda-manager/src/rda.py/home/rninjar/anaconda3/envs/rda-py36dev/bin/python /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  577  source /home/rninjar/anaconda3/bin/activate
+  578  conda activate rda-py36dev
+  579  source /home/rninjar/anaconda3/bin/activate
+  580  conda activate rda-py36dev
+  581  /home/rninjar/anaconda3/envs/rda-py36dev/bin/python /home/rninjar/Documents/Projects/rda-manager/src/rda.py
+  582  ansible
+  583  ansible -version
+  584  ansible -vault
+  585  ansible-vault
+  586  whereis ansible
+  587  cd Documents/Projects/rda-manager/
+  588  echo "C0mcast!" > ~/.vault-pass.txt
+  589  ls
+  590  cd ~
+  591  ls
+  592  ls -a
+  593  cat .vault-pass.txt 
+  594  cd Documents/Projects/rda-manager/
+  595  ansible-vault decrypt --vault-password-file ~/.vault-pass.txt config/secrets.json
+  596  git update-index --assume-unchanged config/secrets.json
+  597  git status
+  598  cat ~/.bashrc
+  599  ls -a
+  600  cd ~
+  601  ls -a
+  602  cat .profile 
+  603  vim .profile
+  604  env
+  605  history>history-a.log
+
+
+PS C:\WINDOWS\system32> Get-History
+
+  Id CommandLine
+  -- -----------
+   1 Enable-WSManCredSSP -Role Server -Force
+   2 New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+   3 Install-Module -Name AnsibleVault
+   4 Install-Module -Name AnsibleVault
+   5 Get-Module -Name AnsibleVault -ListAvailable
+   6 Get-DecryptedAnsibleVault -Path "C:\Projects\rda-manager\config\secrets.json" | Set-Content -Path "C:\Projects\rda-manager\config\secrets.json"
+
+
+
+PS C:\WINDOWS\system32> Get-History
+
+  Id CommandLine
+  -- -----------
+   1 Enable-WSManCredSSP -Role Server -Force
+   2 New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+   3 Install-Module -Name AnsibleVault
+   4 Install-Module -Name AnsibleVault
+   5 Get-Module -Name AnsibleVault -ListAvailable
+   6 Get-DecryptedAnsibleVault -Path "C:\Projects\rda-manager\config\secrets.json" | Set-Content -Path "C:\Projects\rda-manager\config\secrets.json"
